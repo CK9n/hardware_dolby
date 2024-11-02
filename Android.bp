@@ -22,15 +22,3 @@ android_app_import {
 	privileged: true,
 	system_ext_specific: true,
 }
-
-android_app_import {
-	name: "DaxUI",
-	apk: "proprietary/system_ext/priv-app/DaxUI/DaxUI.apk",
-	certificate: "platform",
-	privileged: true,
-	system_ext_specific: true,
-        overrides: [
-            "MusicFX", 
-            "AudioFX",
-        ],
-}
